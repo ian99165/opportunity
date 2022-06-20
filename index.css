@@ -1,0 +1,89 @@
+.babu{
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  width: 400px;
+  height: auto;
+}
+.navbar-brand{
+  font-size: 25px;
+}
+.carousel-item{
+  data-bs-interval=2000;
+}
+.text0{
+  color: #ffffff;
+}
+.text1{
+  color: #dddddd;
+}
+.text00{
+  margin-left: 150px;
+  margin-top: 50px;
+  color: #000000;
+  font-size: 20px;
+}
+.text000{
+  margin-left: 150px;
+  margin-top: 20px;
+  color: #000000;
+  font-size: 20px;
+}
+.text01{
+  margin-left: 150px;
+  color: #000000;
+  font-size: 16px;
+}
+.text02{
+  margin-left: 150px;
+  margin-bottom: 20px;
+  color: #000000;
+  font-size: 16px;
+}
+.text03{
+  margin-top: 50px;
+  text-align: center;
+  color: #000000;
+  font-size: 20px;
+}
+.text04{
+  text-align: center;
+  color: #000000;
+  font-size: 20px;
+}
+.text05{
+  margin-left: 10%;
+  margin-top: 1%;
+  color: #000000;
+  font-size: 20px;
+}
+.text06{
+  margin-left: 2%;
+  margin-top: 1%;
+  color: #000000;
+  font-size: 20px;
+}
+.button{
+  margin-top: 20px;
+  margin-left: 150px;
+}
+.img-left{
+  margin-left: 10%;
+}
+.img-top{
+  margin-top: 2%;
+}
+.imgover{
+  height: 150px;
+  width: auto;
+  max-width: 350px;
+  object-fit: cover;
+  vertical-align:middle;
+  justify-content: center;
+}
+.img-babu{
+  width: 50%;
+  height: auto;
+}
+.modal-fullscreen-sm-down{
+}
