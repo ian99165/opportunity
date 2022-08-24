@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>月音靜</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link href="index.css" rel="stylesheet">
+
+<script type="text/javascript">
+<!--  //隨機播放陣列中指定的圖檔
+        var jsImg = new Array("img/網頁看板待機.gif","img/網頁看板揮手.gif","img/網頁看板揮揮.gif");
+        var i=0;
+        //設定每兩秒執行一次randomImg() ，此行要在 function 之外
+        setInterval("randomImg()",5000);
+        function randomImg(){
+        //陣列的長度 * 介於0~1間數字 ，然後在取 floor 當照片索引值
+        var imgIndex = Math.floor(Math.random()*jsImg.length);
+        document.getElementById("img").innerHTML  = "<img src='"+jsImg[imgIndex]+"' width=300 height=auto>";
+        }
+-->
+</script>
+</head>
+<body>
+<div id="img" class="babushizu"></div>
+</body>
+</html>
